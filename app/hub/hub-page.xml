@@ -1,0 +1,10 @@
+<Page class="page" xmlns="http://www.nativescript.org/tns.xsd">
+    <ActionBar title="Hub" class="action-bar">
+    </ActionBar>
+
+    <StackLayout class="home-panel">
+        <Button class="btn btn-primary" text="navigate('featured-page')" tap="navigateToFeatured" />
+        <Button class="btn btn-primary" text="navigate('browse-page')" tap="navigateToBrowse" />
+        <Button class="btn btn-primary" text="navigate('search-page')" tap="navigateToSearch" />
+    </StackLayout>
+</Page>
